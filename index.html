@@ -1,32 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Semantic NYT</title>
 </head>
 <body>
-  <div class="masthead">
+  <header>
     <h1>New York Times</h1>
     <nav>
-      <div class="list">
-        <div>
           <a href="world.html">World</a>
-        </div>
-        <div>
           <a href="sports.html">Sports</a>
-        </div>
-        <div>
           <a href="local.html">Local</a>
-        </div>
-      </div>
     </nav>
-  </div>
-  <div class="content">
-    <div class="main-article">
-      <div class="article-heading">
+  </header>
+    <main>
+      <article>
+      <header>
         <h2>Title Goes Here</h2>
         <p>September 2013</p>
-      </div>
+      </header>
       <div>
         <h3>Mine explosion by the old well</h3>
         <p>Lorem Ipsum Dolor</p>
@@ -46,36 +38,39 @@
         <p>Lorem Ipsum Dolor</p>
         <p>Lorem Ipsum Dolor</p>
       </div>
-      <div class="sidebar">
+      <aside>
         <h3>Mine explosions throughout history</h3>
-        <ul>
+        <ol>
           <li>This happened</li>
           <li>And then this happened</li>
           <li>And... this happened</li>
-        </ul>
-      </div>
-      <div class="bottom">
-        Contact the author at <a href="mailto:kyle.coberly@gmail.com"></a>
-      </div>
-    </div>
-    <div class="other-news">
+        </ol>
+      </aside>
+      <footer>
+        <p>
+          Contact the author at
+          <a href="mailto:kyle.coberly@gmail.com">kyle.coberly@gmail.com</a>
+        </p>
+      </footer>
+      </article>
+    </main>
+    <section>
       <h2>Also in the news</h2>
-      <div class="collapsabile">
-        <div class="teaser-text">Mets Game</div>
+      <aside>
+        <h4>Mets Game</h4>
         <p>The Mets clobbered the Cubs in a total upset</p>
-      </div>
-      <div class="collapsabile">
-        <div class="teaser-text">Knicks Game</div>
+      </aside>
+      <aside>
+        <h4>Knicks Game</h4>
         <p>The Knicks clobbered the Bulls in a total upset</p>
-      </div>
-      <div class="collapsabile">
-        <div class="teaser-text">Jets Game</div>
+      </aside>
+      <aside>
+        <h4>Jets Game</h4>
         <p>The Jets clobbered the Steelers in a total upset</p>
-      </div>
-    </div>
-  </div>
-  <div class="page-bottom">
+      </aside>
+    </section>
+  <footer>
     <span class="legal">Copyright 2015, New York Times</span>
-  </div>
+  </footer>
 </body>
 </html>
